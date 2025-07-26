@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ManisBite – Maniskan Harimu dengan Cinta!</title>
+
+  <!-- ✅ Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm animate__animated animate__fadeInDown"
+    style="background: linear-gradient(to right, #fff8dc, #fff0b3);">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-danger fs-4" href="#">
+        Manis<span class="text-dark">Bite</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item">
+            <a class="nav-link fw-medium px-3 text-dark hover-link" href="#beranda">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium px-3 text-dark hover-link" href="#tentang">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium px-3 text-dark hover-link" href="#produk">Produk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-medium px-3 text-dark hover-link" href="#testimoni">Testimoni</a>
+          </li>
+          <li class="nav-item mt-2 mt-lg-0">
+            <a class="btn btn-danger px-4 py-2 text-white fw-semibold rounded-pill" href="#pesan">
+              Pesan Sekarang
+            </a>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <section id="beranda" class="py-5 mt-5 bg-light">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 animate__animated animate__fadeInLeft">
+          <h1 class="display-5 fw-bold text-danger">Maniskan Harimu dengan Cinta</h1>
+          <p class="lead">Rasakan kelezatan kue kering premium buatan rumahan, cocok untuk hadiah atau teman minum teh.
+          </p>
+          <a class="btn btn-danger px-4 py-2 text-white fw-semibold rounded-pill" href="#pesan">
+            Pesan Sekarang
+          </a>
+        </div>
+        <div class="col-md-6 text-center animate__animated animate__fadeInRight">
+          <img src="img/kue kering.webp" alt="Dessert Box" class="hero-img img-fluid mt-4 mt-md-0">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang -->
+  <section id="tentang" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold text-danger mb-3" data-aos="fade-up" data-aos-delay="200">Tentang ManisBite</h2>
+      <p class="mb-4" data-aos="fade-up" data-aos-delay="300">
+        Kami percaya bahwa setiap hari bisa menjadi lebih manis dengan suguhan yang dibuat dari hati. <br>
+        ManisBite menghadirkan kue kering yang lembut, renyah, dan dikemas dengan cinta untuk setiap momen berharga
+        Anda.
+      </p>
+
+      <!-- Google Maps -->
+      <div class="ratio ratio-16x9 rounded shadow-sm" data-aos="zoom-in" data-aos-delay="400">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.1436922807965!2d112.74516357485933!3d-7.881352892129084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788291a5427495%3A0x7f597be58ff66ac1!2sToko%20Kue%20ManisBite!5e0!3m2!1sid!2sid!4v1690363272905!5m2!1sid!2sid"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" title="Lokasi ManisBite"></iframe>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Produk -->
+  <section id="produk" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-danger mb-4 text-center" data-aos="fade-up" data-aos-delay="200">Produk Unggulan</h2>
+
+      <div class="overflow-auto pb-3" style="scrollbar-width: none; -ms-overflow-style: none;"
+        onwheel="this.scrollLeft += event.deltaY">
+        <div class="d-flex gap-3" style="overflow-x: auto; white-space: nowrap;">
+
+          <!-- Card 1 -->
+          <div class="card shadow-sm" style="min-width: 250px;" data-aos="fade-up" data-aos-delay="500">
+            <img src="img/kue kering.webp" class="card-img-top" alt="Cookies" style="height: 160px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Choco Chip Cookies</h5>
+              <p class="card-text">Rp35.000 / box</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card shadow-sm" style="min-width: 250px;" data-aos="fade-up" data-aos-delay="600">
+            <img src="img/dessert.webp" class="card-img-top" alt="Dessert Box"
+              style="height: 160px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Dessert Box Cokelat</h5>
+              <p class="card-text">Rp45.000 / box</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card shadow-sm" style="min-width: 250px;" data-aos="fade-up" data-aos-delay="700">
+            <img src="img/kue kering.webp" class="card-img-top" alt="Mini Cheesecake"
+              style="height: 160px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Mini Cheesecake</h5>
+              <p class="card-text">Rp40.000 / box</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card shadow-sm" style="min-width: 250px;" data-aos="fade-up" data-aos-delay="800">
+            <img src="img/dessert.webp" class="card-img-top" alt="Brownies" style="height: 160px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Brownies Lumer</h5>
+              <p class="card-text">Rp38.000 / box</p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="card shadow-sm" style="min-width: 250px;" data-aos="fade-up" data-aos-delay="900">
+            <img src="img/kue kering.webp" class="card-img-top" alt="Pastry" style="height: 160px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Mini Pastry</h5>
+              <p class="card-text">Rp42.000 / box</p>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="card shadow-sm" style="min-width: 250px;" data-aos="fade-up" data-aos-delay="1000">
+            <img src="img/dessert.webp" class="card-img-top" alt="Fruit Tart" style="height: 160px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title text-danger">Fruit Tart</h5>
+              <p class="card-text">Rp48.000 / box</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Testimoni -->
+ <section id="testimoni" class="py-5 bg-light overflow-hidden">
+  <div class="container text-center">
+    <h2 class="fw-bold text-danger mb-4" data-aos="fade-up" data-aos-delay="400">Apa Kata Mereka?</h2>
+
+    <div class="testimonial-wrapper position-relative"  data-aos="zoom-in" data-aos-delay="500">
+      <div class="testimonial-track d-flex gap-4" >
+        <!-- Testimoni 1 -->
+        <div class="p-4 bg-warning-subtle rounded shadow min-w-300">
+          <p>"Kue-nya enak banget, lumer di mulut! Pas buat hampers lebaran!"</p>
+          <p class="fw-semibold text-danger mt-2">– Rina, Surabaya</p>
+        </div>
+        <!-- Testimoni 2 -->
+        <div class="p-4 bg-warning-subtle rounded shadow min-w-300">
+          <p>"Packaging-nya cantik dan rasa dessert box-nya nagih!"</p>
+          <p class="fw-semibold text-danger mt-2">– Dimas, Bandung</p>
+        </div>
+        <!-- Testimoni 3 -->
+        <div class="p-4 bg-warning-subtle rounded shadow min-w-300">
+          <p>"Anak-anak suka banget kukis cokelatnya. Udah langganan!"</p>
+          <p class="fw-semibold text-danger mt-2">– Sari, Jakarta</p>
+        </div>
+        <!-- Testimoni 4 -->
+        <div class="p-4 bg-warning-subtle rounded shadow min-w-300">
+          <p>"Rasa premium banget! Cocok buat oleh-oleh juga."</p>
+          <p class="fw-semibold text-danger mt-2">– Bayu, Yogyakarta</p>
+        </div>
+        <!-- Duplikat untuk loop -->
+        <div class="p-4 bg-warning-subtle rounded shadow min-w-300">
+          <p>"Kue-nya enak banget, lumer di mulut! Pas buat hampers lebaran!"</p>
+          <p class="fw-semibold text-danger mt-2">– Rina, Surabaya</p>
+        </div>
+        <div class="p-4 bg-warning-subtle rounded shadow min-w-300">
+          <p>"Packaging-nya cantik dan rasa dessert box-nya nagih!"</p>
+          <p class="fw-semibold text-danger mt-2">– Dimas, Bandung</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Form Pesan -->
+  <section id="pesan" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold text-danger mb-4" data-aos="fade-up" data-aos-delay="300">Pesan Sekarang</h2>
+      <form class="mx-auto" style="max-width: 500px;">
+        <div class="mb-3" data-aos="fade-right" data-aos-delay="400">
+          <input type="text" id="nama" class="form-control" placeholder="Nama Anda" required>
+        </div>
+        <div class="mb-3" data-aos="fade-left" data-aos-delay="400">
+          <input type="text" id="wa" class="form-control" placeholder="Nomor WhatsApp" required>
+        </div>
+        <div class="mb-3"  data-aos="fade-up" data-aos-delay="400">
+          <textarea id="pesanan" class="form-control" rows="4" placeholder="Pesan / Produk yang diinginkan"
+            required></textarea>
+        </div>
+        <button type="button" class="btn btn-danger px-4 py-2 text-white fw-semibold rounded-pill"
+          onclick="kirimWhatsApp()"  data-aos="fade-up" data-aos-delay="400">Kirim via WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-modern">
+    <div class="footer-container">
+      <!-- Brand + Logo -->
+      <div class="footer-brand">
+
+        <div>
+          <h4 class="fw-bold">
+            <span style="color: #e11d48 ;">Manis</span>Bite
+          </h4>
+          <p>&copy; 2025 All rights reserved.</p>
+        </div>
+      </div>
+
+      <!-- Sosial Media -->
+      <div class="footer-social">
+        <a href="https://www.facebook.com/smk17muncar/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/smk17_muncar/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@SMKAGUSTUSMUNCARBANYUWANGI" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.tiktok.com/@smk17muncar" target="_blank"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- Script: Bootstrap & WhatsApp -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
