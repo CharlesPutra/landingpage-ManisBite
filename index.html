@@ -33,10 +33,10 @@
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-<!-- align-items-lg-center text-center text-lg-start gap-2 gap-lg-3 mt-3 mt-lg-0 -->
+
       <!-- Daftar Link Navigasi -->
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto ">
+        <ul class="navbar-nav ms-auto align-items-lg-center text-center text-lg-start gap-2 gap-lg-3 mt-3 mt-lg-0 ">
           <li class="nav-item">
             <a class="nav-link fw-medium px-2 px-lg-3 text-dark hover-link" href="#beranda">Beranda</a>
           </li>
@@ -114,74 +114,69 @@
 
 
   <!-- Produk -->
-  <section id="produk" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="fw-bold text-danger mb-4 text-center" data-aos="fade-up" data-aos-delay="200">Produk Unggulan</h2>
+ <section id="produk" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="fw-bold text-danger mb-4 text-center" data-aos="fade-up" data-aos-delay="200">Produk Unggulan</h2>
 
-      <div class="overflow-auto pb-3" style="scrollbar-width: none; -ms-overflow-style: none;"
-        onwheel="this.scrollLeft += event.deltaY">
-        <div class="d-flex gap-3" style="overflow-x: auto; white-space: nowrap;">
+    <!-- Scrollable container -->
+    <div class="overflow-auto pb-2" style="scrollbar-width: none; -ms-overflow-style: none;" onwheel="this.scrollLeft += event.deltaY">
+      <div class="d-flex flex-nowrap gap-3 px-1" style="overflow-x: auto; white-space: nowrap;">
 
-          <!-- Card 1 -->
-          <div class="card shadow-sm" style="min-width: 250px;" data-aos="fade-up" data-aos-delay="500">
-            <img src="img/kue kering.webp" class="card-img-top" alt="Cookies" style="height: 160px; object-fit: cover;">
-            <div class="card-body">
-              <h5 class="card-title text-danger">Choco Chip Cookies</h5>
-              <p class="card-text">Rp35.000 / box</p>
-            </div>
+        <!-- Card -->
+        <div class="card shadow-sm flex-shrink-0" style="min-width: 220px; max-width: 220px;" data-aos="fade-up" data-aos-delay="500">
+          <img src="img/kue kering.webp" class="card-img-top" alt="Cookies" style="height: 150px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h6 class="card-title text-danger mb-1">Choco Chip Cookies</h6>
+            <p class="card-text small">Rp35.000 / box</p>
           </div>
-
-          <!-- Card 2 -->
-          <div class="card shadow-sm" style="min-width: 250px;" data-aos="fade-up" data-aos-delay="600">
-            <img src="img/dessert.webp" class="card-img-top" alt="Dessert Box"
-              style="height: 160px; object-fit: cover;">
-            <div class="card-body">
-              <h5 class="card-title text-danger">Dessert Box Cokelat</h5>
-              <p class="card-text">Rp45.000 / box</p>
-            </div>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="card shadow-sm" style="min-width: 250px;" data-aos="fade-up" data-aos-delay="700">
-            <img src="img/kue kering.webp" class="card-img-top" alt="Mini Cheesecake"
-              style="height: 160px; object-fit: cover;">
-            <div class="card-body">
-              <h5 class="card-title text-danger">Mini Cheesecake</h5>
-              <p class="card-text">Rp40.000 / box</p>
-            </div>
-          </div>
-
-          <!-- Card 4 -->
-          <div class="card shadow-sm" style="min-width: 250px;" data-aos="fade-up" data-aos-delay="800">
-            <img src="img/dessert.webp" class="card-img-top" alt="Brownies" style="height: 160px; object-fit: cover;">
-            <div class="card-body">
-              <h5 class="card-title text-danger">Brownies Lumer</h5>
-              <p class="card-text">Rp38.000 / box</p>
-            </div>
-          </div>
-
-          <!-- Card 5 -->
-          <div class="card shadow-sm" style="min-width: 250px;" data-aos="fade-up" data-aos-delay="900">
-            <img src="img/kue kering.webp" class="card-img-top" alt="Pastry" style="height: 160px; object-fit: cover;">
-            <div class="card-body">
-              <h5 class="card-title text-danger">Mini Pastry</h5>
-              <p class="card-text">Rp42.000 / box</p>
-            </div>
-          </div>
-
-          <!-- Card 6 -->
-          <div class="card shadow-sm" style="min-width: 250px;" data-aos="fade-up" data-aos-delay="1000">
-            <img src="img/dessert.webp" class="card-img-top" alt="Fruit Tart" style="height: 160px; object-fit: cover;">
-            <div class="card-body">
-              <h5 class="card-title text-danger">Fruit Tart</h5>
-              <p class="card-text">Rp48.000 / box</p>
-            </div>
-          </div>
-
         </div>
+
+        <!-- Tambahan Card lainnya -->
+        <div class="card shadow-sm flex-shrink-0" style="min-width: 220px; max-width: 220px;" data-aos="fade-up" data-aos-delay="600">
+          <img src="img/dessert.webp" class="card-img-top" alt="Dessert Box" style="height: 150px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h6 class="card-title text-danger mb-1">Dessert Box Cokelat</h6>
+            <p class="card-text small">Rp45.000 / box</p>
+          </div>
+        </div>
+
+        <!-- ... Tambahkan card lain dengan pola sama ... -->
+        <!-- Tambahan Card lainnya -->
+        <div class="card shadow-sm flex-shrink-0" style="min-width: 220px; max-width: 220px;" data-aos="fade-up" data-aos-delay="700">
+          <img src="img/kue kering.webp" class="card-img-top" alt="Dessert Box" style="height: 150px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h6 class="card-title text-danger mb-1">Dessert Box Cokelat</h6>
+            <p class="card-text small">Rp45.000 / box</p>
+          </div>
+        </div>
+
+        <!-- ... Tambahkan card lain dengan pola sama ... -->
+        <!-- Tambahan Card lainnya -->
+        <div class="card shadow-sm flex-shrink-0" style="min-width: 220px; max-width: 220px;" data-aos="fade-up" data-aos-delay="800">
+          <img src="img/dessert.webp" class="card-img-top" alt="Dessert Box" style="height: 150px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h6 class="card-title text-danger mb-1">Dessert Box Cokelat</h6>
+            <p class="card-text small">Rp45.000 / box</p>
+          </div>
+        </div>
+
+        <!-- ... Tambahkan card lain dengan pola sama ... -->
+        <!-- Tambahan Card lainnya -->
+        <div class="card shadow-sm flex-shrink-0" style="min-width: 220px; max-width: 220px;" data-aos="fade-up" data-aos-delay="900">
+          <img src="img/kue kering.webp" class="card-img-top" alt="Dessert Box" style="height: 150px; object-fit: cover;">
+          <div class="card-body text-center">
+            <h6 class="card-title text-danger mb-1">Dessert Box Cokelat</h6>
+            <p class="card-text small">Rp45.000 / box</p>
+          </div>
+        </div>
+
+        <!-- ... Tambahkan card lain dengan pola sama ... -->
+
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
 
 
