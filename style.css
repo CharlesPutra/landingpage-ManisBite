@@ -1,4 +1,11 @@
- /* navbar */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* navbar */
+ nav.navbar {
+  z-index: 1050; /* atau lebih tinggi */
+}
  .hover-link {
      position: relative;
      transition: color 0.3s ease;
