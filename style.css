@@ -67,12 +67,15 @@
 
  /* produk keunggulan  */
  .overflow-auto::-webkit-scrollbar {
-  display: none;
-}
-.overflow-auto {
-  -ms-overflow-style: none;  /* IE/Edge */
-  scrollbar-width: none;     /* Firefox */
-}
+     display: none;
+ }
+
+ .overflow-auto {
+     -ms-overflow-style: none;
+     /* IE/Edge */
+     scrollbar-width: none;
+     /* Firefox */
+ }
 
  /* produk keunggulan end */
 
